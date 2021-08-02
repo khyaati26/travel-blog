@@ -1,91 +1,210 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Blog by Khyaati | GitHub Page</title>
-    <!--Bootstrap CSStyle-->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Blog by Khyaati | GitHub Page</title>
+        <!--Bootstrap CSStyle-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!--OWL Carousel-->
-    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.theme.default.min.css">
+        <!--OWL Carousel-->
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css">
 
-    <!--Google Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap">
+        <!--Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap">
+        
+        <!-- theme stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="img/head_img.JPG">
+            
     
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="styles.css">
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-</head>
-<body>
-    <header> 
-        <!-- header -->
-        <div class = "header">
-            <div class="py-2 bg-dark text-white">
-                <div class = "container py-1">
-                    <div class = "row align-items-center">
-                        <div class = "col-lg-4">
-                            <ul class = "list-inline mb-0 text-small">
-                                <li class = "list-inline-item">
-                                    <a class = "reset-anchor" href="#">About Us</a>
-                                </li>
-                                <li class = "list-inline-item">|</li>
-                                <li class = "list-inline-item">
-                                    <a class = "reset-anchor" href="#">Sitemap</a>
-                                </li>
-                            </ul>
+        
+
+    </head>
+
+    <body>
+        <div class="d-none">
+            <svg width="0" height="0" class = "hidden">
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-left-1">
+                    <title>Arrow Left</title>
+                    <desc>A line styled icon from Orion Icon Library.</desc>
+                    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10" d="M14 31.998h36" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+                    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10" d="M28 18L14 32l14 14" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+                  </symbol>
+                  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="arrow-right-1">
+                    <title>Arrow Right</title>
+                    <desc>A line styled icon from Orion Icon Library.</desc>
+                    <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10" d="M50 31.998H14" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+                    <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10" d="M36 18l14 14-14 14" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+                  </symbol>
+            </svg>
+            
+        </div>
+        <header> 
+            <!-- header -->
+            <div class = "header">
+                <div class="py-2 bg-dark text-white">
+                    <div class = "container py-1">
+                        <div class = "row align-items-center">
+                            <div class = "col-lg-4">
+                                <ul class = "list-inline mb-0 text-small">
+                                    <li class = "list-inline-item">
+                                        <a class = "reset-anchor" href="#">About Us</a>
+                                    </li>
+                                    <li class = "list-inline-item">|</li>
+                                    <li class = "list-inline-item">
+                                        <a class = "reset-anchor" href="#">Sitemap</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- logo navbar -->
+            <nav class = " navbar navbar-expand-lg navbar-light bg-white py-4">
+                <div class = "container text-center">
+                    <a class =" navbar-brand mx-auto" href="index.html">
+                        <img class="mb-2" src="img/head_img.JPG" alt width="140">
+                        <p class ="text-small text-uppercase text-gray mb-0">A TRAVEL GUIDE CAPSULE</p> 
+                    </a>
+                </div>
+            </nav>
+
+            <!-- main navbar -->
+            <nav class = "navbar navbar-expand-lg navbar-light border-gray py-2 bg-light">
+                <div class = " container">
+                    <button class="navbar-toggler navbar-toggler-right mx-auto border-0" type="button" data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-1">
+                            <!-- Link--><a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <!-- Link--><a class="nav-link" href="countries.html">Countries</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <!-- Link--><a class="nav-link" href="post.html">Post</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+
+        <!-- Featured Destinations -->
+        <section class="pt-5">
+            <div class="container">
+            <h1>Featured Destinations</h1>
+            <p class="mb-0">Middle East countries and South East Asian Countries</p>
+            </div>
+            <div class="destinations-slider owl-carousel owl-theme nav-center-custom owl-padding owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transition: all 0s ease 0s; width: 7250px; padding-left: 20px; padding-right: 15px; transform: translate3d(mx-auto, 0px, 0px);">
+                    
+                    <div class="owl-item" style="width: 400px; margin-right: 10px;">
+                        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/dubai1.jpg)">
+                            <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+                                <p class="small text-uppercase mb-0">United Arab Emirates</p>
+                                <h2 class="h3 mb-4">Dubai</h2>
+                                <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="owl-item active centre" style="width: 400px; margin-right: 10px;">
+                        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/oman1.JPG)">
+                            <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+                                <p class="small text-uppercase mb-0">Oman</p>
+                                <h2 class="h3 mb-4">Muscat</h2>
+                                <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="owl-item active" style="width: 400px; margin-right: 10px;">
+                        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/abu_dhabi.jpg)">
+                            <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+                                <p class="small text-uppercase mb-0">United Arab Emirates</p>
+                                <h2 class="h3 mb-4">Abu Dhabi</h2>
+                                <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                <div class="owl-dots disabled"></div>
         </div>
-
-        <!-- logo navbar -->
-        <nav class = " navbar navbar-expand-lg navbar-light bg-white py-4">
-            <div class = "container text-center">
-                <a class =" navbar-brand mx-auto" href="index.html">
-                    <img class="mb-2" src="img/head_img.JPG" alt width="140">
-                    <p class ="text-small text-uppercase text-gray mb-0">A TRAVEL GUIDE CAPSULE</p> 
-                </a>
-            </div>
-        </nav>
-
-        <!-- main navbar -->
-        <nav class = "navbar navbar-expand-lg navbar-light border-gray py-2 bg-light">
-            <div class = " container">
-                <button class="navbar-toggler navbar-toggler-right mx-auto border-0" type="button" data-toggle="collapse" 
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                      <li class="nav-item px-1">
-                        <!-- Link--><a class="nav-link active" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item px-1">
-                        <!-- Link--><a class="nav-link" href="#">Listing</a>
-                      </li>
-                      <li class="nav-item px-1">
-                        <!-- Link--><a class="nav-link" href="#">Post</a>
-                      </li>
-                    </ul>
+        </section>
+        <!-- Book -->
+        <section class="py-5">
+            <div class="container py-4">
+              <!-- Home listing -->
+              <div class="row align-items-stretch bg-full-left">
+                <div class="col-lg-6 pr-lg-0 order-2 order-lg-1">
+                  <div class="h-100 bg-light d-flex align-items-center">
+                    <div class="py-5 pr-4 pl-3 pl-lg-0">
+                      <p class="text-primary font-weight-bold small text-uppercase mb-2">Travel guide</p>
+                      <h3 class="h4"> <a class="text-reset" href="post.html">Book to inspire your travel</a></h3>
+                      <p class="text-muted text-small mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quam nobis autem voluptate illum beatae atque suscipit inventore tenetur, perferendis facere sequi optio laudantium obcaecati aliquam, dolores ea. Pariatur, repellendus.</p>
+                      <p class="text-muted text-small mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quam nobis autem voluptate illum beatae atque suscipit inventore tenetur, perferendis facere sequi optio laudantium obcaecati aliquam, dolores ea. Pariatur, repellendus.</p>
+                      <ul class="list-inline small text-uppercase mb-0">
+                        <li class="list-inline-item align-middle"><img class="rounded-circle shadow-sm" src="img/img1.jpg" alt="" width="30"></li>
+                        <li class="list-inline-item mr-0 text-gray align-middle">By </li>
+                        <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Khyaati</a></li>
+                        <li class="list-inline-item text-gray align-middle mr-0">|</li>
+                        <li class="list-inline-item text-gray align-middle">Jan, 2021</li>
+                      </ul>
+                    </div>
                   </div>
-
+                </div>
+                <div class="col-lg-6 pl-lg-0 order-1 order-lg-2"><a class="d-block h-100 bg-center bg-cover" href="post.html" style="background: url(img/book1.jpg)"></a></div>
+              </div>
             </div>
-    </header>
+          </section>
+
+        <footer class="bg-dark py-4">
+            <div class="container">
+              <div class="row py-2">
+                <div class="col-lg-4 text-center text-lg-left mb-2 mb-lg-0">
+                  <p class="small text-muted text-uppercase mb-0">© copyright 2021 - all rights reserved</p>
+                </div>
+                <div class="col-lg-4 text-center mb-2 mb-lg-0">
+                  <ul class="list-inline text-white small mb-0">
+                    <li class="list-inline-item">
+                        <a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="reset-anchor" href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </footer>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <!-- FontAwesome CSS -->  
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     
-    <h2>Oman</h2>
-    <p> Stretching almost 15 km along the Omani coastalline, Muscat is a true experience of real Arabia. 
-        Muscat, strung below craggy mountains, the Omani capital of Muscat is one of the Middle East’s oldest and most picturesque cities. 
-        Between its corniches and modern quarter are Portuguese-built forts, blue-domed mosques, royal palaces, and souks, all heavy with the sense of a lost Arabia.
-        Muscat was destined to be my first international trip in November 2009. I was so thrilled to have a aerial view of beautiful Muscat city.  
-        Vividly remember  that  sunny day which was adding such silvery shine to the  pearly view of white painted city and the  surrounded stoney mountains.</p>
 </body>
 </html>
